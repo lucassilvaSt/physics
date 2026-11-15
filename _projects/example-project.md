@@ -34,7 +34,7 @@ links:
   - label: "Code"
     url: "https://github.com/lucassilvaST"
   # - label: "Video"
-    url:
+    # url:
 ---
 
 <!-- Everything below is the project page itself. Write it like you're explaining it to a curious friend. -->
