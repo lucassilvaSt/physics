@@ -1,6 +1,6 @@
 # Lucas's physics portfolio
 
-Live at **https://lucassilvast.github.io**. When you push changes to GitHub, the site updates by itself within about a minute.
+Live at **https://lucassilvast.github.io/physics**. When you push changes to GitHub, the site updates by itself within about a minute.
 
 ## What to edit
 
@@ -34,6 +34,6 @@ Then, each time you want to preview:
 
     bundle exec jekyll serve
 
-and open http://localhost:4000.
+and open http://localhost:4000/physics/.
 
 Built on the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.

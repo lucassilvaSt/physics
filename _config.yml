@@ -23,8 +23,8 @@ subtitle                 : "Physics projects & experiments"
 name                     : "Lucas Silva"
 description              : "Lucas Silva's physics portfolio: projects, experiments and awards."
 url                      : "https://lucassilvast.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "lucassilvaST/lucassilvaST.github.io"
+baseurl                  : "/physics" # must match the repo name: this site lives at lucassilvast.github.io/physics
+repository               : "lucassilvaST/physics"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title

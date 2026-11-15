@@ -21,4 +21,4 @@ When I'm not doing physics, you'll find me [hobbies].
 {% endfor %}
 </div>
 
-[See all projects →](/projects/)
+[See all projects →]({{ '/projects/' | relative_url }})

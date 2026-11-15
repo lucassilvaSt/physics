@@ -3,7 +3,7 @@
 # EXAMPLE PROJECT: copy this file for each new project.
 # 1. Copy it in the _projects folder and rename it, e.g. "coil-gun.md"
 #    (lowercase, dashes instead of spaces). The file name becomes the page's link:
-#    lucassilvast.github.io/projects/coil-gun/
+#    lucassilvast.github.io/physics/projects/coil-gun/
 # 2. Fill in the fields below, then replace the text under the --- line.
 # 3. Delete this example file once you have a real project.
 # ─────────────────────────────────────────────────────────────────────────────
@@ -47,7 +47,7 @@ What did you want to find out or build, and why did it interest you? One short p
 
 Describe your setup and method. A photo of the setup helps a lot:
 
-![A photo of my setup](/assets/images/placeholder.png)
+![A photo of my setup]({{ '/assets/images/placeholder.png' | relative_url }})
 
 ## Results
 
