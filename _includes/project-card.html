@@ -1,0 +1,20 @@
+{%- comment -%}
+  One project card. Used on the home page (featured projects) and the Projects page.
+  Everything shown here comes from the front matter of a file in _projects/.
+{%- endcomment -%}
+{%- assign p = include.project -%}
+<div class="project-card">
+  <a class="card-image" href="{{ p.url | relative_url }}">
+    <img src="{{ p.header.teaser | default: '/assets/images/placeholder.png' | relative_url }}" alt="{{ p.title | escape }}">
+  </a>
+  <div class="card-content">
+    <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    {% if p.context %}<p class="card-course">{{ p.context }}</p>{% endif %}
+    {% if p.excerpt %}<p class="card-description">{{ p.excerpt | strip_html }}</p>{% endif %}
+    {% if p.tools %}<p class="card-tech">{{ p.tools }}</p>{% endif %}
+    <div class="card-links">
+      <a href="{{ p.url | relative_url }}">Read more</a>
+      {% for l in p.links %}{% if l.url %}<a href="{{ l.url }}">{{ l.label }}</a>{% endif %}{% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+# Your awards. Copy one block (from "- title" down to "note") for each award.
+#
+#   title:    name of the award or competition (required)
+#   result:   place / level, e.g. "2nd place" or "Semifinalist" (optional)
+#   year:     e.g. 2025, or "2024–2026" for something ongoing (required)
+#   category: awards with the same category are listed together under that heading
+#   url:      link to the competition's website (optional, leave blank for none)
+#   note:     one short line of context, e.g. "Top 300 of 6,000 students" (optional)
+#
+# Lines starting with # are notes and don't show on the site.
+# EXAMPLES BELOW: replace them with your real awards.
+
+- title: "Example Physics Competition"
+  result: "2nd place"
+  year: 2025
+  category: "Competitions"
+  url:
+  note: "One line of context, e.g. how many people competed."
+
+- title: "Example Summer Research Program"
+  result: "Selected participant"
+  year: 2025
+  category: "Programs"
+  url:
+  note:
