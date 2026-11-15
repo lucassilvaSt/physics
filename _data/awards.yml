@@ -8,18 +8,50 @@
 #   note:     one short line of context, e.g. "Top 300 of 6,000 students" (optional)
 #
 # Lines starting with # are notes and don't show on the site.
-# EXAMPLES BELOW: replace them with your real awards.
+# For a link to one of your own project pages, start the url with "/", e.g. /projects/coil-gun/
 
-- title: "Japanese Exam"
-  result: "Gold (#x in country)"
-  year: XXXX
-  category: "Competitions"
+# ── Competitions & exams ──
+
+- title: "National Merit Scholarship Program"
+  result: "Commended Student"
+  year: 2026
+  category: "Competitions & Exams"
+  url: "https://www.nationalmerit.org"
+  note:
+
+- title: "National Japanese Exam"
+  result: "Gold Certification"
+  year: "2024, 2026"
+  category: "Competitions & Exams"
   url:
-  note: "One line of context, e.g. how many people competed."
+  note: "Silver Certification in 2025"
 
-- title: "National Hispanic..."
-  result: "Selected participant"
-  year: XXX
+- title: "AMC 8"
+  result: "Second Place, United Nations International School"
+  year:
+  category: "Competitions & Exams"
+  url: "https://maa.org/student-programs/amc/"
+  note:
+
+# ── Programs ──
+
+- title: "Summer Robotics Internship, UC Berkeley"
+  result: "Agile Robotics and Perception Lab"
+  year: 2026
   category: "Programs"
-  url:
-  note: "maybe say how you qualify?"
+  url: /projects/berkeley-robotics-internship/
+  note:
+
+- title: "All Star Code"
+  result:
+  year: 2024
+  category: "Programs"
+  url: "https://www.allstarcode.org"
+  note:
+
+- title: "Emerging Leaders in Technology and Engineering (ELiTE), Columbia University"
+  result:
+  year: "2023–2024"
+  category: "Programs"
+  url: "https://www.elite-education.org"
+  note:

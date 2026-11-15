@@ -18,7 +18,7 @@ classes: wide
   {% for a in group.items %}
   <li>
     <span>
-      {% if a.url %}<a href="{{ a.url }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}{% if a.result %}, {{ a.result }}{% endif %}
+      {% if a.url %}{% assign first = a.url | slice: 0 %}<a href="{% if first == "/" %}{{ a.url | relative_url }}{% else %}{{ a.url }}{% endif %}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}{% if a.result %}, {{ a.result }}{% endif %}
       {% if a.note %}<br><span class="note">{{ a.note }}</span>{% endif %}
     </span>
     <span class="yr">{{ a.year }}</span>

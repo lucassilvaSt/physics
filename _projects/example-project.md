@@ -5,8 +5,11 @@
 #    (lowercase, dashes instead of spaces). The file name becomes the page's link:
 #    lucassilvast.github.io/physics/projects/coil-gun/
 # 2. Fill in the fields below, then replace the text under the --- line.
-# 3. Delete this example file once you have a real project.
+# 3. In your copy, DELETE the "published: false" line below, or it won't show up.
+#    (This template stays hidden from the site because of that line.)
 # ─────────────────────────────────────────────────────────────────────────────
+
+published: false
 
 title: "Example Project: [title of project]"
 

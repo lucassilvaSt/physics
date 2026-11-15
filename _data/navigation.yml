@@ -1,6 +1,0 @@
-# Tabs in the top bar
-main:
-  - title: "Projects"
-    url: /projects/
-  - title: "Awards"
-    url: /awards/
