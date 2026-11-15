@@ -8,16 +8,16 @@
 # 3. Delete this example file once you have a real project.
 # ─────────────────────────────────────────────────────────────────────────────
 
-title: "Example Project: Measuring g with a Pendulum"
+title: "Example Project: [title of project]"
 
 # One or two sentences shown on the project card.
-excerpt: "I built a pendulum timer with a photogate and an Arduino, and measured the acceleration due to gravity to within 0.5%."
+excerpt: "I built XXX with XXXX and measured XXXX."
 
 # Where/when it happened, shown in small italics on the card.
 context: "Independent project · Summer 2025"
 
 # Tools, parts, or methods you used.
-tools: "Arduino • Python • 3D printing"
+tools: "Skill1 • Python • Skill2, etc."
 
 # The picture on the card. Put the image in assets/images/ and write its path here.
 header:
@@ -33,7 +33,7 @@ order: 1
 links:
   - label: "Code"
     url: "https://github.com/lucassilvaST"
-  - label: "Video"
+  # - label: "Video"
     url:
 ---
 
@@ -45,20 +45,20 @@ What did you want to find out or build, and why did it interest you? One short p
 
 ## How I did it
 
-Describe your setup and method. A photo of the setup helps a lot:
+Describe your setup and method. A photo of the setup helps a lot. Also if you did a simulation, put like code excerpt or table of parameters you can control.
 
 ![A photo of my setup]({{ '/assets/images/placeholder.png' | relative_url }})
 
 ## Results
 
-What did you measure or make work? Show a plot, a number with its uncertainty, or a video.
+What did you measure or make work? Plot, video, etc.
 
-To embed a YouTube video, put this on its own line, using the ID from the video's link (the part after `v=`):
-`{% raw %}{% include video id="YOUR_VIDEO_ID" provider="youtube" %}{% endraw %}`
+<!-- To embed a YouTube video, put this on its own line, using the ID from the video's link (the part after `v=`): -->
+<!-- `{% raw %}{% include video id="YOUR_VIDEO_ID" provider="youtube" %}{% endraw %}` -->
 
 ## What went wrong (and how I fixed it)
 
-The things that didn't work the first time, and what you changed. This is often the most interesting part to read.
+The things that didn't work the first time, and what you changed. [This is often the most interesting part to read.]
 
 ## What I learned
 

@@ -10,16 +10,16 @@
 # Lines starting with # are notes and don't show on the site.
 # EXAMPLES BELOW: replace them with your real awards.
 
-- title: "Example Physics Competition"
-  result: "2nd place"
-  year: 2025
+- title: "Japanese Exam"
+  result: "Gold (#x in country)"
+  year: XXXX
   category: "Competitions"
   url:
   note: "One line of context, e.g. how many people competed."
 
-- title: "Example Summer Research Program"
+- title: "National Hispanic..."
   result: "Selected participant"
-  year: 2025
+  year: XXX
   category: "Programs"
   url:
-  note:
+  note: "maybe say how you qualify?"
